@@ -1,0 +1,33 @@
+body{
+    background-color: #B3D5D8;
+}
+li{
+    margin: 5px;
+    display: inline;
+}
+#logo{
+    float: left;
+    width: 100px;
+    height: 100px;
+    z-index: 11;
+}
+h1{
+    font-size: 60px;
+    margin-top: 0px;
+}
+#navigation{
+    display: inline;
+    float: right;
+    background-color: #9CA9BC;
+    z-index: 9;
+}
+#ouderavond{
+    text-align:center;
+    z-index: 10;
+    background-color: #6F829F;
+    font-size: 60px;
+    width: 86vw;
+    height: 12vh;
+    float: right;
+    border: 3px solid #4e5866;
+}
