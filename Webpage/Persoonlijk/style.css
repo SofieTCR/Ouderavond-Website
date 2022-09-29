@@ -36,3 +36,12 @@ h1{
     float: right;
     border: 3px solid #4e5866;
 }
+#PaginaTitel
+{
+    text-align: center;
+}
+#TitelBar
+{
+    display: inline;
+    text-align: center;
+}
