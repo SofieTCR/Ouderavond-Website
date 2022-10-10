@@ -1,0 +1,73 @@
+body{
+    background-color: #B3D5D8;
+}
+li{
+    margin: 5px;
+    display: inline;
+}
+li a
+{
+    text-decoration: none;
+    color: black;
+}
+#logo{
+    float: left;
+    width: 100px;
+    height: 100px;
+    z-index: 11;
+}
+h1{
+    font-size: 60px;
+    margin-top: 0px;
+}
+#navigation{
+    display: inline;
+    float: right;
+    background-color: #9CA9BC;
+    z-index: 9;
+}
+#ouderavond{
+    text-align:center;
+    z-index: 10;
+    background-color: #6F829F;
+    font-size: 60px;
+    width: 86vw;
+    height: 12vh;
+    float: right;
+    border: 3px solid #4e5866;
+}
+#PaginaTitel
+{
+    position: absolute;
+    left: 27vw;
+    top: 20vh;
+}
+.Spacers
+{
+    width: 90vw;
+    height: 7.5vh;
+    padding: 0px;
+    margin: 5vh 5vw 5vh 5vw;
+    background-color: #6F829F;
+    float: left;
+}
+#Spacer1
+{
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    background-color: #B3D5D8;
+}
+h3
+{
+    float: left;
+    margin: 2vh 5vw 2vh 5vw;
+    width: 70vw;
+    font-size: 24px;
+}
+p
+{
+    float: left;
+    margin: 2vh 5vw 2vh 5vw;
+    width: 70vw;
+    font-size: 20px;
+}
