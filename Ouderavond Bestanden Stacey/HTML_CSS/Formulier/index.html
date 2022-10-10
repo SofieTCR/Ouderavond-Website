@@ -5,12 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LogIn Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <img id="logo" src="logo-tcr.png" alt="tcr logo-tcr">
+
+    <h1 id="ouderavond">
+        Ouderavond
+    </h1>
+
+    <div id="navigation">
+        
+        <nav>
+            <ul class="menu1">
+                <li>Canvas</li>
+                <li>EduArte</li>
+                <li>Opleidingswijzer</li>
+                <li>Software</li>
+                <li>Examenplan</li>
+                <li>Persoonlijk</li>
+            </ul>
+            <ul class="menu2">
+                <li>Ouderavonden</li>
+                <li>BSA</li>
+                <li>Begeleiding</li>
+                <li>Locatie</li>
+                <li>Absentie Procedure</li>
+                <li>Formulier</li>
+            </ul>
+        </nav>
+    </div>  
     <header>
-        <h1>
-            Account Aanmaken
-        </h1>
+        <h2 class="titelformulier">
+            Hoe vond U deze website?
+        </h2>
     </header>
 
     <form>
@@ -29,13 +58,20 @@
 
         <br>
 
-        <label for="email">E-Mail:</label>
-        <input typr="email" id="email" name="email"><br>
+        <label for="inhoud">Hoe tevreden bent u met de inhoud van de website?</label>
+        <input type="number" min="1" max="10" id="inhoud" name="inhoud">
 
         <br>
+        <br>
 
-        <label for="password">Wachtwoord</label>
-        <input type="password" id="password" name="password"><br>
+        <label for="foto's">Uw mening over de foto's:</label>
+        <textarea name="foto's" id="foto's" cols="10" rows="1"></textarea>
+
+        <br>
+        <br>
+
+        <label for="email">E-Mail:</label>
+        <input type="email" id="email" name="email"><br>
 
         <br>
         
