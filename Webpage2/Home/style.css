@@ -112,3 +112,7 @@ body
     font-family: 'Raleway', sans-serif;
     background-color: var(--Background-Colour);
 }
+#welcome-img{
+    margin: 6vh 0 0 30vw;
+    width: 40vw;
+}
