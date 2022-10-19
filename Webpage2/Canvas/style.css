@@ -2,7 +2,6 @@
 {
     margin: 0px;
     padding: 0px;
-    overflow: hidden;
 }
 /* Main Page Definitions */
 :root
@@ -111,4 +110,114 @@ body
 {
     font-family: 'Raleway', sans-serif;
     background-color: var(--Background-Colour);
+}
+#dashboard-h2{
+    margin-top: 2vh;
+    margin-left: 19vw;
+    padding: .1vw 2vw .1vw 2vw;
+    width: 8vw;
+    border: dashed var(--Border-Colour-1) 5px;
+    background-color: var(--Text-Background-Colour);
+}
+#dashboard-img{
+    padding-left: 1%;
+    width: 30vw;
+}
+#dashboard-tekst{
+    width: 55vw;
+    display: flex;
+    padding-top: 5vh;
+    justify-content: flex-start;
+}
+#dash-div{
+    background-color: var(--Text-Background-Colour);
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    padding: 2%;
+    border: dashed var(--Border-Colour-1) 5px;
+}
+#cursus-h2{
+    margin-top: 2vh;
+    margin-left: 19vw;
+    padding: .1vw 2vw .1vw 2vw;
+    width: 8vw;
+    border: dashed var(--Border-Colour-1) 5px;
+    background-color: var(--Text-Background-Colour);
+}
+#cursus-tekst{
+    width: 55vw;
+    display: flex;
+    justify-content: flex-start;
+}
+#cursus-div{
+    background-color: var(--Text-Background-Colour);
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    padding: 2%;
+    border: dashed var(--Border-Colour-1) 5px;
+}
+#dashboard-h2{
+    margin-top: 2vh;
+    margin-left: 19vw;
+    padding: .1vw 2vw .1vw 2vw;
+    width: 8vw;
+    border: dashed var(--Border-Colour-1) 5px;
+    background-color: var(--Text-Background-Colour);
+}
+#kalender-h2{
+    margin-top: 2vh;
+    margin-left: 19vw;
+    padding: .1vw 2vw .1vw 2vw;
+    width: 7vw;
+    border: dashed var(--Border-Colour-1) 5px;
+    background-color: var(--Text-Background-Colour);
+}
+#kalender-img{
+    padding-left: 1%;
+    width: 50vw;
+}
+#kalender-tekst{
+    width: 55vw;
+    display: flex;
+    padding-top: 5vh;
+    justify-content: flex-start;
+}
+#kalender-div{
+    background-color: var(--Text-Background-Colour);
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    padding: 2%;
+    border: dashed var(--Border-Colour-1) 5px;
+}
+#foto-inf{
+    display: flex;
+    padding-top: 5vh;
+    padding-right: 10vw;
+    align-items: flex-end;
+}
+
+
+#inbox-h2{
+    margin-top: 2vh;
+    margin-left: 19vw;
+    padding: .1vw 2vw .1vw 2vw;
+    width: 7vw;
+    border: dashed var(--Border-Colour-1) 5px;
+    background-color: var(--Text-Background-Colour);
+}
+#inbox-tekst{
+    width: 55vw;
+    display: flex;
+    justify-content: flex-start;
+}
+#inbox-div{
+    background-color: var(--Text-Background-Colour);
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    padding: 2%;
+    border: dashed var(--Border-Colour-1) 5px;
 }
