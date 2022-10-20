@@ -115,3 +115,42 @@ body
     font-family: 'Raleway', sans-serif;
     background-color: var(--Background-Colour);
 }
+#begeleiding-h2{
+    margin-top: 2vh;
+    padding: .1vw 2vw .1vw 2vw;
+    width: 13vw;
+    border: dashed var(--Border-Colour-1) 5px;
+    background-color: var(--Text-Background-Colour);
+    border-radius: 2vh;
+}
+#begeleiding-tekst{
+    width: 55vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#begeleiding{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#begeleiding-div{
+    background-color: var(--Text-Background-Colour);
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    padding: 2%;
+    border: dashed var(--Border-Colour-1) 5px;
+    border-radius: 2vh;
+}
+#tcr-begeleiding{
+    border: dashed var(--Border-Colour-1) 5px;
+    border-radius: 2vh;
+    padding: 5vh 0 5vh 5vh;
+    width: 22vw;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    background-color: var(--Text-Background-Colour);
+}
