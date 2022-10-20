@@ -115,3 +115,43 @@ body
     font-family: 'Raleway', sans-serif;
     background-color: var(--Background-Colour);
 }
+main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.Ouderavond-section
+{
+    background-color: var(--Text-Background-Colour);
+    padding: 6vh;
+    width: 80vw;
+    height: 30vh;
+    border-radius: 2vh;
+    border: dashed var(--Border-Colour-1) 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Ouderavond-text-div
+{
+    height: 100%;
+    width: 50vw;
+}
+.Ouderavond-img-div
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Ouderavond-img
+{
+    height: 95%;
+    border-radius: 2vh;
+}
+#LastSection
+{
+    margin-bottom: 6vh;
+}

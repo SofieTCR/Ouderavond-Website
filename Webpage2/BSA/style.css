@@ -128,7 +128,7 @@ main
     background-color: var(--Text-Background-Colour);
     padding: 6vh;
     width: 50vw;
-    height: 30vh;
+    height: 50vh;
     border-radius: 2vh;
     border: dashed var(--Border-Colour-1) 5px;
     display: flex;

@@ -2,7 +2,7 @@
 {
     margin: 0px;
     padding: 0px;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 /* Main Page Definitions */
 :root
@@ -114,4 +114,57 @@ body
     padding-top: 22vh;
     font-family: 'Raleway', sans-serif;
     background-color: var(--Background-Colour);
+}
+main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.EduArte-section
+{
+    background-color: var(--Text-Background-Colour);
+    padding: 6vh;
+    width: 80vw;
+    height: 32vh;
+    border-radius: 2vh;
+    border: dashed var(--Border-Colour-1) 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.EduArte-text-div
+{
+    height: 100%;
+    width: 50vw;
+}
+.EduArte-img-div
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.EduArte-img
+{
+    height: 95%;
+    border-radius: 2vh;
+}
+.EduArte-spacer
+{
+    width: 86vw;
+    height: 8vh;
+    background-color: var(--Border-Colour-1);
+    border-radius: 2vh;
+    margin: 6vh;
+}
+#LastSection
+{
+    margin-bottom: 6vh;
+    height: 40vh;
+}
+#EduArte-aanwezigheid-link
+{
+    color: black;
 }
