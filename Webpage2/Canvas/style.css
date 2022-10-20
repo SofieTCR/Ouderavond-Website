@@ -16,6 +16,8 @@
 /* Nav Bar CSS */
 nav
 {
+    position: fixed;
+    top: 0px;
     width: 100vw;
     background-color: var(--Border-Colour-1);
     display: flex;
@@ -110,6 +112,7 @@ nav
 /* Body CSS */
 body
 {
+    padding-top: 22vh;
     font-family: 'Raleway', sans-serif;
     background-color: var(--Background-Colour);
 }
