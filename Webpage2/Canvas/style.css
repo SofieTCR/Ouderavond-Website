@@ -119,10 +119,11 @@ body
 #dashboard-h2{
     margin-top: 2vh;
     margin-left: 19vw;
-    padding: .1vw 2vw .1vw 2vw;
+    padding: .1vw 4vw .1vw 2vw;
     width: 8vw;
     border: dashed var(--Border-Colour-1) 5px;
     background-color: var(--Text-Background-Colour);
+    border-radius: 2vh;
 }
 #dashboard-img{
     padding-left: 1%;
@@ -141,14 +142,16 @@ body
     margin: 2%;
     padding: 2%;
     border: dashed var(--Border-Colour-1) 5px;
+    border-radius: 2vh;
 }
 #cursus-h2{
     margin-top: 2vh;
     margin-left: 19vw;
-    padding: .1vw 2vw .1vw 2vw;
+    padding: .1vw 3vw .1vw 2vw;
     width: 8vw;
     border: dashed var(--Border-Colour-1) 5px;
     background-color: var(--Text-Background-Colour);
+    border-radius: 2vh;
 }
 #cursus-tekst{
     width: 55vw;
@@ -162,22 +165,16 @@ body
     margin: 2%;
     padding: 2%;
     border: dashed var(--Border-Colour-1) 5px;
-}
-#dashboard-h2{
-    margin-top: 2vh;
-    margin-left: 19vw;
-    padding: .1vw 2vw .1vw 2vw;
-    width: 8vw;
-    border: dashed var(--Border-Colour-1) 5px;
-    background-color: var(--Text-Background-Colour);
+    border-radius: 2vh;
 }
 #kalender-h2{
     margin-top: 2vh;
     margin-left: 19vw;
-    padding: .1vw 2vw .1vw 2vw;
+    padding: .1vw 3vw .1vw 2vw;
     width: 7vw;
     border: dashed var(--Border-Colour-1) 5px;
     background-color: var(--Text-Background-Colour);
+    border-radius: 2vh;
 }
 #kalender-img{
     padding-left: 1%;
@@ -196,6 +193,7 @@ body
     margin: 2%;
     padding: 2%;
     border: dashed var(--Border-Colour-1) 5px;
+    border-radius: 2vh;
 }
 #foto-inf{
     display: flex;
@@ -212,6 +210,7 @@ body
     width: 7vw;
     border: dashed var(--Border-Colour-1) 5px;
     background-color: var(--Text-Background-Colour);
+    border-radius: 2vh;
 }
 #inbox-tekst{
     width: 55vw;
@@ -225,4 +224,5 @@ body
     margin: 2%;
     padding: 2%;
     border: dashed var(--Border-Colour-1) 5px;
+    border-radius: 2vh;
 }
