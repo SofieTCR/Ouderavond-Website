@@ -233,3 +233,13 @@ body
     border: dashed var(--Border-Colour-1) 5px;
     border-radius: 2vh;
 }
+.canvas-spacer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 93vw;
+    height: 8vh;
+    background-color: var(--Border-Colour-1);
+    border-radius: 2vh;
+    margin: 6vh;
+}
