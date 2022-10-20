@@ -126,8 +126,12 @@ body
     border-radius: 2vh;
 }
 #dashboard-img{
-    padding-left: 1%;
+
     width: 30vw;
+    border: dashed var(--Border-Colour-1) 5px;
+    border-radius: 2vh;
+    padding: 1vw;
+    margin-bottom: 10vh;
 }
 #dashboard-tekst{
     width: 55vw;
@@ -177,7 +181,10 @@ body
     border-radius: 2vh;
 }
 #kalender-img{
-    padding-left: 1%;
+    border: dashed var(--Border-Colour-1) 5px;
+    border-radius: 2vh;
+    padding: 1vw;
+    margin-bottom: 10vh;
     width: 50vw;
 }
 #kalender-tekst{
