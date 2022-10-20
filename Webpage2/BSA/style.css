@@ -109,9 +109,41 @@ nav
     background-color: var(--Text-Background-Colour);
 }
 /* Body CSS */
+
 body
 {
     padding-top: 22vh;
     font-family: 'Raleway', sans-serif;
     background-color: var(--Background-Colour);
+}
+main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.BSA-section
+{
+    background-color: var(--Text-Background-Colour);
+    padding: 6vh;
+    width: 50vw;
+    height: 30vh;
+    border-radius: 2vh;
+    border: dashed var(--Border-Colour-1) 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.BSA-text-div
+{
+    height: 100%;
+}
+#TCR-BSA-link
+{
+    color: black;
+}
+#LastSection
+{
+    margin-bottom: 6vh;
 }
