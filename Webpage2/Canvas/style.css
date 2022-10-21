@@ -139,7 +139,6 @@ body
     border-radius: 2vh;
 }
 #dashboard-img{
-
     width: 30vw;
     border: dashed var(--Border-Colour-1) 5px;
     border-radius: 2vh;
@@ -160,6 +159,7 @@ body
     padding: 2%;
     border: dashed var(--Border-Colour-1) 5px;
     border-radius: 2vh;
+    height: 50vh;
 }
 #cursus-h2{
     margin-top: 2vh;
