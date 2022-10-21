@@ -87,12 +87,6 @@ nav
     color: black;
 
 }
-#Menu-spacer
-{
-    width: 0.035vw;
-    height: 6vh;
-    background-color: var(--Border-Colour-2);
-}
 .Menu-content
 {
     width: 7.6vw;
@@ -105,6 +99,26 @@ nav
 .Menu-content:hover
 {
     background-color: var(--Text-Background-Colour);
+}
+#Persoonlijk-button:hover #persoonlijk-menu-div
+{
+    display: flex;
+}
+#persoonlijk-menu-div
+{
+    position: fixed;
+    top: 19.2vh;
+    left: 45.0vw;
+    width: 7.6vw;
+    height: 18vh;
+    background-color: var(--Border-Colour-2);
+    border: solid  var(--Border-Colour-2) .25vw;
+    border-top: none;
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
 }
 /* Body CSS */
 body
