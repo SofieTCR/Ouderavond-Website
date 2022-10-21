@@ -2,7 +2,7 @@
 {
     margin: 0px;
     padding: 0px;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 /* Main Page Definitions */
 :root
@@ -167,4 +167,11 @@ body
     color: black;
     font-weight: bolder;
     background-color: var(--Text-Background-Colour);
+}
+iframe{
+    background-color: var(--Text-Background-Colour);
+    padding: 3vh;
+    border: dashed var(--Border-Colour-1) 5px;
+    border-radius: 2vh;
+    margin: 3vh 0 5vh 0;
 }
